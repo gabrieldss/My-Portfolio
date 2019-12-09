@@ -1,0 +1,380 @@
+body {
+  background-color: #DFDFDF;
+}
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.88);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.header-brand {
+  position: absolute;
+}
+
+.header-brand a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (min-width: 650px) {
+.header-menu-items {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.menu-item {
+  padding: 18px 18px;
+  flex-shrink: 2;
+  letter-spacing: 2px;
+  }
+}
+
+.menu-item a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+}
+
+.active-home {
+  border-bottom: 3px solid #3993DD;
+}
+
+.active-experience{
+  border-bottom: 3px solid #BA160C;
+}
+
+.active-projects{
+  border-bottom: 3px solid #FFA630;
+}
+
+.active-blogs{
+  border-bottom: 3px solid #7CA982;
+}
+
+.active-info {
+  border-bottom: 3px solid #73001A;
+}
+
+.active-contact {
+  border-bottom: 3px solid #58355E;
+}
+
+.home {
+  padding-top: 54px;
+}
+
+.home-container {
+  height: 600px;
+  background-size: cover;
+  font-size: 70px;
+  color: #fff;
+}
+
+.home-text {
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.skills-container {
+  display: flex;
+  text-decoration: none;
+  font-size: 14px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.about-blurb p {
+  line-height: 1.3em;
+}
+
+#skills-title {
+  margin: 20px;
+  text-align: center;
+  text-decoration: underline
+}
+
+.skills-1 div {
+  padding: 3px;
+}
+
+.skills-2 div {
+  padding: 3px;
+}
+
+.experience, .blogs, .contact, .home, .info, .projects{
+  padding-top: 54px;
+}
+
+.about-container {
+  border-top: 5px solid #A5CDEF;
+}
+
+.experience-container {
+  border-top: 5px solid #DF9590;
+}
+
+.proj-container {
+  border-top: 5px solid #FFE6C6;
+}
+
+.blogs-container {
+  border-top: 5px solid #C3D7C6;
+}
+
+.contact-container {
+  border-top: 5px solid #B3A3B5;
+}
+
+.item-wrapper {
+  max-width: 900px;
+  margin-top: 10px;
+}
+
+.work-item, .edu-item, .about-item, .blogs-item, .contact-item {
+  box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.12), 1px 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
+  background-color: #fff;
+}
+
+.work-item p, .edu-item p, .about-item p, .blogs-item p, .contact-item p {
+  padding: 5px;
+  text-align: center;
+}
+
+.work-item ul, .edu-item ul, .about-item ul, .blogs-item ul, .contact-item ul {
+  list-style: square;
+}
+
+.work-item li, .edu-item li, .about-item li, .blogs-item li, .contact-item li {
+  padding: 5px 0;
+}
+
+.work-item, .about-item, .contact-item {
+  padding: 50px;
+  min-height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blogs-item {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.edu-wrapper {
+  padding: 0;
+}
+
+.edu-item {
+  padding: 50px;
+  min-height: 450px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.honors-item {
+  line-height: 1.2em;
+}
+
+.work-img, .about-img {
+  margin-bottom: 15px;
+}
+
+.work-img img,.about-img img {
+  display: block;
+  margin: auto;
+  max-width: 150px;
+  border-bottom: rgba(0, 0, 0, 0.12);
+}
+
+.proj-img img {
+  display: block;
+  margin: auto;
+  border-bottom: rgba(0, 0, 0, 0.12);
+  margin-bottom: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.proj-img img:hover {
+  top:-2px;
+  box-shadow:0 2px 2px #666;
+  opacity: 0.7;
+}
+
+.hidden-xs img:hover {
+  top:-2px;
+  box-shadow:0 2px 2px #666;
+  opacity: 0.7;
+}
+
+.blogs-img {
+  padding-right: 0px !important;
+  margin-bottom: 15px;
+}
+
+.blogs-img img {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.14), 0 1px 2px rgba(0, 0, 0, 0.28);
+}
+
+.blogs-img-sm {
+  margin-bottom: 15px;
+}
+
+.blogs-img-sm img {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.14), 0 1px 2px rgba(0, 0, 0, 0.28);
+}
+
+.blogs-header {
+  display: flex;
+}
+
+.blogs-title {
+  align-self: flex-start;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: 'Merriweather', sans-serif;
+  letter-spacing: .5px;
+  font-weight: bold;
+}
+
+.blogs-content {
+  line-height: 1.2em;
+  font-size: 14px;
+  text-align: justify;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.title, .name {
+  font-family: 'Merriweather', sans-serif;
+  letter-spacing: .5px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.skills-wrapper {
+  font-size: 14px;
+}
+
+.skills-wrapper ul {
+  list-style: circle;
+}
+
+.resume-item, .honors-item {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.contact-item {
+  overflow: hidden;
+}
+
+.contact-title {
+  font-size: 20px;
+  font-family: 'Merriweather', sans-serif;
+  letter-spacing: .5px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#email {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  letter-spacing: .5px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.contact-card-wrapper {
+  margin-top: 50px;
+}
+
+.github, .linkedin, .curriculo {
+  padding-bottom: 15px;
+}
+
+.contact-card {
+  position: relative;
+  width: 200px;
+  border-left: 5px solid #3993dd;
+  border-bottom: 1px solid #3993dd;
+  border-top: 1px solid #3993dd;
+  border-right: 1px solid #3993dd;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14);
+}
+
+.contact-icon {
+  display: inline-block;
+  padding: 9px 15px;
+}
+
+.contact-icon .fa {
+  color: #3993dd;
+}
+
+.contact-card-text {
+  letter-spacing: 2px;
+  display: inline;
+  position: absolute;
+  top: 38%;
+  left: 45%;
+}
+
+.rodape {
+  background-color: #000;
+  margin-top: 5px;
+}
+
+.header-menu-rod {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rod-item2 {
+  flex-shrink: 2;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+
+.rod {
+  color:white;
+  align-items: center center;
+}

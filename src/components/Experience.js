@@ -54,9 +54,9 @@ class Experience extends Component {
                                     </div>
                                     <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
-                                            <li>X Feira da Ideia (2016) e Estágio na UTFPR-CP (jun/2016-dez/2016)</li>
                                             <li>Estágio Setor de Suporte na C.D.S (mar/2018-jun/2018)</li>
                                             <li>Membro da Enactus UTFPR-CP (set/2019-atualmente)</li>
+                                            <li>Desenvolvedor na Forlogic (jan/2020-atualmente)</li>
                                         </ul>
                                     </div>
                                 </div>

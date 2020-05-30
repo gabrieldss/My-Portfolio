@@ -34,7 +34,7 @@ class Home extends Component {
                                         <div className="skills-1">
                                             <div>HTML5, CSS3</div>
                                             <div>MySql, SQL Server, PostgreSQL</div>
-                                            <div>Programação C, Java</div>
+                                            <div>Programação C, Java, JavaScript</div>
                                             <div>AutoCAD</div>
                                         </div>
                                     </div>

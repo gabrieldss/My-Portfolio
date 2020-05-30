@@ -48,7 +48,7 @@ class Experience extends Component {
                                 <div className="row">
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
-                                            <li>Tecnologia em Análise e Desenvolvimento de Sistemas (2017-atual)</li>
+                                            <li>Tecnologia em Análise e Desenvolvimento de Sistemas (2017-atualmente)</li>
                                             <li>Técnico em Produção Mecânica (2013-2016)</li>
                                         </ul>
                                     </div>

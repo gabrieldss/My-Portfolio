@@ -71,7 +71,7 @@ class Header extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={500} >
-                                Projetos
+                                Projetcs
                             </Link>
                         </div>
                         <div className="menu-item">

@@ -1,11 +1,11 @@
 {
-  "homepage": "https://gabrieldss.github.io/Meu-Portfolio/",
+  "homepage": "https://gabrieldss.github.io/My-Portfolio/",
   "name": "portfolio_t2",
   "version": "0.1.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrieldss/Meu-Portfolio.git"
+    "url": "git+https://github.com/gabrieldss/My-Portfolio.git"
   },
   "devDependencies": {
     "react-scripts": "0.8.5"

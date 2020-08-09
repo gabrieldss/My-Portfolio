@@ -1,5 +1,5 @@
 # My Portfolio
 
-### Saiba um pouco sobre mim acessando:
+### Find out a little about me by visiting:
 
 https://gabrieldss.github.io/Meu-Portfolio/

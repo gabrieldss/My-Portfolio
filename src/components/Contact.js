@@ -42,7 +42,7 @@ class Contact extends Component {
                                         </a>
                                     </div>
                                     <div className="col-xs-12 col-sm-4 curriculo">
-                                    <a target="_blank" href={require("../files/Currículo.pdf")} download="gabrielsouza_currículo" >
+                                    <a target="_blank" href={require("../files/Curriculum.pdf")} download="gabrielsouza_curriculum">
                                             <div className="contact-card">
                                                 <div className="contact-icon">
                                                     <i className="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i>

@@ -61,7 +61,7 @@ class Header extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={500} >
-                                Detalhes
+                                Details
                             </Link>
                         </div>
                         <div className="menu-item">
@@ -101,7 +101,7 @@ class Header extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={500} >
-                                Contato
+                                Contact
                             </Link>
                         </div>
                     </div>

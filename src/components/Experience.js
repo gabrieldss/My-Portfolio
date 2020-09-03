@@ -56,7 +56,7 @@ class Experience extends Component {
                                         <ul>
                                             <li>Estágio Setor de Suporte na C.D.S (mar/2018-jun/2018)</li>
                                             <li>Membro da Enactus UTFPR-CP (set/2019-atualmente)</li>
-                                            <li>Desenvolvedor na Forlogic (jan/2020-atualmente)</li>
+                                            <li>Desenvolvedor em Forlogic Software LTDA (jan/2020-atualmente)</li>
                                         </ul>
                                     </div>
                                 </div>

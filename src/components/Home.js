@@ -31,11 +31,10 @@ class Home extends Component {
                                 <div className="skills">
                                     <p id="skills-title">Habilidades: </p>
                                     <div className="skills-container">
-                                        <div className="skills-1">
-                                            <div>HTML5, CSS3</div>
-                                            <div>MySql, SQL Server, PostgreSQL</div>
-                                            <div>Programação C, Java, JavaScript</div>
-                                            <div>AutoCAD</div>
+                                    <div className="skills-1">
+                                            <div>HTML, CSS, JavaScript</div>
+                                            <div>SQL Server, MySql, PostgreSQL</div>
+                                            <div>Programação C, Java</div>
                                         </div>
                                     </div>
                                     <hr></hr>

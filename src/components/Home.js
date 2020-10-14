@@ -32,7 +32,7 @@ class Home extends Component {
                                     <p id="skills-title">Habilidades: </p>
                                     <div className="skills-container">
                                     <div className="skills-1">
-                                            <div>HTML, CSS, JavaScript</div>
+                                            <div>HTML, CSS, JavaScript, C#</div>
                                             <div>SQL Server, MySql, PostgreSQL</div>
                                             <div>Programação C, Java</div>
                                         </div>

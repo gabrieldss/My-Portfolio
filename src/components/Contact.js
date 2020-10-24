@@ -12,7 +12,7 @@ class Contact extends Component {
                     <div className="container item-wrapper">
                         <div className="row">
                             <div className="contact-item">
-                                <div className="contact-title">Contate-me</div>
+                                <div className="contact-title">Contact me</div>
                                 <hr></hr>
                                 <div id="email">gabriel-santosouza@hotmail.com</div>
                                 
@@ -41,36 +41,36 @@ class Contact extends Component {
                                             </div>
                                         </a>
                                     </div>
-                                    <div className="col-xs-12 col-sm-4 curriculo">
+                                    <div className="col-xs-12 col-sm-4 curriculum">
                                     <a target="_blank" href={require("../files/Curriculum.pdf")} download="gabrielsouza_curriculum">
                                             <div className="contact-card">
                                                 <div className="contact-icon">
                                                     <i className="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i>
                                                 </div>
                                                 <div className="contact-card-text">
-                                                    <div>Currículo</div>
+                                                    <div>Curriculum</div>
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
                                     <center>
-                                    <a>Forumulário de Contato:</a>
+                                    <a id="form_contact_title">Forumulário de Contato:</a>
                                     </center>
                                     <center>
                                     <form action="https://formspree.io/gabriel-santosouza@hotmail.com" method="POST">
                                     <div>
-                                    <input type="text" name="Nome:" placeholder="Nome" maxlength="20"></input>
+                                    <input type="text" name="Name:" placeholder="Name"></input>
                                     </div>
                                     <div>
-                                    <input type="text" name="E-mail:" placeholder="E-mail" maxlength="20"></input>
+                                    <input type="text" name="E-mail:" placeholder="E-mail"></input>
                                     </div>
                                     <div>
-                                    <input type="text" name="Assunto:" placeholder="Assunto" maxlength="20"></input>
+                                    <input type="text" name="Subject:" placeholder="Subject" ></input>
                                     </div>
                                     <div>
-                                    <textarea type="text" name="Mensagem:" placeholder="Digite sua mensagem"></textarea> 
+                                    <textarea type="text" name="Message:" placeholder="Write your message..."></textarea> 
                                     </div>
-                                    <button>Enviar</button>
+                                    <button>SEND</button>
                                     </form>
                                     </center>
                                 </div>

@@ -10,16 +10,13 @@ function Projects() {
             <div className="container item-wrapper">
             <div className="work-item">
                                 <div className="work-img">
-                                    <img
-                                        src={require("../images/projeto.png")}
-                                        role={"presentation"}
-                                    />
+                                    <h5 id="my_projects_title"><b>My Projects</b></h5>
                                     </div>
                                     <hr></hr>
                                 <div className="proj-img">
-                                <a target="_blank" href="https://github.com/gabrieldss/ControlDiscipline">
+                                <a target="_blank" href="https://github.com/gabrieldss/My_Projects">
                                     <img
-                                        src={require("../images/trab.jpg")}
+                                        src={require("../images/my_projects.png")}
                                         role={"presentation"} />
                                 </a>
                                 </div>

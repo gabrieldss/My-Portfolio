@@ -13,24 +13,23 @@ class Experience extends Component {
                             <div id="inter" className="work-item">
                                 <div className="work-img">
                                     <img
-                                        src={require("../images/interesses.jpg")}
+                                        src={require("../images/interests.jpg")}
                                         role={"presentation"}
                                     />
                                 </div>
-                                <div className="title">Interesses & Idiomas</div>
+                                <div className="title">Interests & Languages</div>
                                 <hr></hr>
                                 <div className="row">
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
                                             <li>Front-end, Games</li>
-                                            <li>Desenvolvimento Web e Móvel</li>
-                                            <li>Inteligência Artificial</li>
+                                            <li>Web and Mobile Development</li>
+                                            <li>Artificial Intelligence</li>
                                         </ul>
                                     </div>
                                     <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
-                                            <li>Inglês: Básico (cursando atualmente em Born Instituto De Idiomas)</li>
-                                            <li>Espanhol: Básico</li>
+                                            <li><b>English: </b>Basic (currently studyng at Born Language Institute)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -39,11 +38,11 @@ class Experience extends Component {
                             <div id="form" className="work-item">
                                 <div className="work-img">
                                     <img
-                                        src={require("../images/formacao.png")}
+                                        src={require("../images/formation.png")}
                                         role={"presentation"}
                                     />
                                 </div>
-                                <div className="title">Formação & Atividades</div>
+                                <div className="title">Formation & Activities</div>
                                 <hr></hr>
                                 <div className="row">
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
@@ -54,7 +53,7 @@ class Experience extends Component {
                                     </div>
                                     <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
-                                            <li>Estágio Setor de Suporte na C.D.S (mar/2018-jun/2018)</li>
+                                            <li>Estágio no setor de Suporte na C.D.S (mar/2018-jun/2018)</li>
                                             <li>Membro da Enactus UTFPR-CP (set/2019-atualmente)</li>
                                             <li>Desenvolvedor em Forlogic Software LTDA (jan/2020-atualmente)</li>
                                         </ul>

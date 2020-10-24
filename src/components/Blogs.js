@@ -14,12 +14,12 @@ class Blogs extends Component {
                         <div className="row">
                             <div className="blogs-item">
                                 <div className="blogs-header">
-                                    <div className="blogs-title"><div>O que é React?</div>
+                                    <div className="blogs-title"><div>What is React?</div>
                                     </div>
                                 </div>
                                 <hr></hr>
                                 <div className="hidden-xs col-sm-6 blogs-img">
-                                <a target="_blank" href="https://www.devmedia.com.br/react-native-tutorial/32860">
+                                <a target="_blank" href="https://en.reactjs.org">
                                         <img
                                             className="img-responsive"
                                             src={require("../images/react.png")}
@@ -28,28 +28,22 @@ class Blogs extends Component {
                                 </div>
                                 <div className="col-xs-12 col-sm-6 blogs-content-wrapper">
                                     <div className="blogs-content">
+                                        <br></br>
                                         <div>
                                             &nbsp;
-                                            Por se tratar de uma biblioteca nova, com recursos novos, 
-                                            muita gente se questiona sobre a real utilidade da mesma, 
-                                            e se vale a pena investir em incorporar mais uma tecnologia 
-                                            a seus projetos. Por outro lado, muitos desenvolvedores 
-                                            consideram a biblioteca eficiente e recomendável, 
-                                            principalmente por duas razões:
+                                            React é uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de 
+                                            interfaces de usuário (UI). Crie views simples para cada estado na sua aplicação, e o React 
+                                            irá atualizar e renderizar de forma eficiente apenas os componentes necessários na medida em 
+                                            que os dados mudam.
                                         </div>
                                         <br></br>
-                                       <ul>
-                                            • Com o React a sua aplicação, bem como toda a lógica interna 
-                                            a ela, é toda escrita e executada em JavaScript, o que te possibilita 
-                                            ter um UI (User Interface) totalmente nativo. Logo, você não tem de 
-                                            assumir nenhum compromisso tipicamente associado ao UI da HTML5. 
-                                        </ul>
-                                        <br></br>
-                                        <ul>
-                                            • O React introduz uma abordagem nova e altamente funcional para a 
-                                            construção de interfaces de usuário: a interface do usuário é simplesmente
-                                             expressa como uma nova função do estado atual do aplicativo. .
-                                        </ul>
+                                        <div>
+                                            &nbsp;
+                                            Crie componentes encapsulados que gerenciam seu próprio estado e então, combine-os para 
+                                            criar UIs complexas. Como a lógica do componente é escrita em JavaScript e não em templates, 
+                                            você pode facilmente passar diversos tipos de dados ao longo da sua aplicação e ainda manter 
+                                            o estado fora do DOM.
+                                        </div> 
                                     </div>
                                 </div>
                             </div>
@@ -58,12 +52,12 @@ class Blogs extends Component {
                         <div className="row">
                             <div className="blogs-item">
                                 <div className="blogs-header">
-                                    <div className="blogs-title"><div>O que é JavaScript?</div>
+                                    <div className="blogs-title"><div>What is JavaScript?</div>
                                     </div>
                                 </div>
                                 <hr></hr>
                                 <div className="hidden-xs col-sm-6 blogs-img">
-                                <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript">
+                                <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
                                     <img
                                         className="img-responsive"
                                         src={require("../images/js.png")}
@@ -80,7 +74,7 @@ class Blogs extends Component {
                                     <div className="blogs-content">
                                         <div>
                                             &nbsp;
-                                            É uma linguagem de programação que pode ser aplicada em um documento HTML 
+                                            JavaScript é uma linguagem de programação que pode ser aplicada em um documento HTML 
                                             e usada para criar interações dinâmicas em sites. Ela foi inventada por 
                                             Brendan Eich, co-fundador do projeto Mozilla, da Fundação Mozilla e 
                                             da Corporação Mozilla.
@@ -107,7 +101,7 @@ class Blogs extends Component {
                                 </div>
                                 <hr></hr>
                                 <div className="hidden-xs col-sm-6 blogs-img">
-                                <a target="_blank" href="https://www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css/#gref">
+                                <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">
                                     <img
                                         className="img-responsive"
                                         src={require("../images/css.jpg")}

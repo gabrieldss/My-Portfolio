@@ -7,7 +7,7 @@ class Footer extends Component {
       <div className="rodape">
               <div className="header-menu-rod">
                 <div className="rod-item2">
-                <p className="rod">© 2020 Gabriel Souza</p>
+                <p className="rod">© Gabriel Souza</p>
               </div>
               </div>
       </div>

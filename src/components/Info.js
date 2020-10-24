@@ -13,7 +13,7 @@ function Info() {
 
                         <div id="masters" className="col-xs-12 col-sm-6 edu-wrapper">
                             <div className=" edu-item">
-                                <div className="title">BIOGRAFIA</div>
+                                <div className="title">BIOGRAPHY</div>
                                 <hr></hr>
                                 <div className="honors-wrapper">
                                 <div className="honors-item">
@@ -31,7 +31,7 @@ function Info() {
                         <div id="bachelors" className="col-xs-12 col-sm-6 edu-wrapper">
                             <div className="edu-item">
 
-                                <div className="title">PROFISSÃO</div>
+                                <div className="title">PROFESSION</div>
                                 <hr></hr>
                                 <div className="honors-wrapper">
                                     <div className="honors-item">

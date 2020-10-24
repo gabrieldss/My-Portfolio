@@ -22,19 +22,19 @@ class Home extends Component {
                                 <hr></hr>
                                 <div className="about-blurb">
                                     <p>
-                                        Sou formado em Técnico em Produção Mecânica e atualmente curso 
-                                        Tecnologia em  Análise em Desenvolvimento de Sistemas pela UTFPR-Câmpus Cornélio 
-                                        e vejo neste ramo uma ótima oportunidade de crescimento pessoal e profissional.
+                                        I'm graduated in Mechanical Production Technician (UTFPR-CP) and Technology in Systems Analysis and
+                                        Development (UTFPR-CP). I love technology and see in this area a great opportunity for personal and 
+                                        professional growth.
                                     </p>
                                 </div>
                                 <hr></hr>
                                 <div className="skills">
-                                    <p id="skills-title">Habilidades: </p>
+                                    <p id="skills-title"><b>SKILLS:</b></p>
                                     <div className="skills-container">
                                     <div className="skills-1">
-                                            <div>HTML, CSS, JavaScript, C#</div>
-                                            <div>SQL Server, MySql, PostgreSQL</div>
-                                            <div>Programação C, Java</div>
+                                            <div>HTML, CSS</div> 
+                                            <div>JavaScript, C#</div>
+                                            <div>SQL Server</div>
                                         </div>
                                     </div>
                                     <hr></hr>

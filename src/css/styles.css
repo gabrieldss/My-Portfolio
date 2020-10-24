@@ -92,7 +92,7 @@ body {
 }
 
 .skills {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .skills-container {
@@ -108,17 +108,14 @@ body {
 }
 
 #skills-title {
-  margin: 20px;
+  margin-bottom: 1px;
   text-align: center;
-  text-decoration: underline
+  font-family: 'Syne Mono', monospace;
 }
 
 .skills-1 div {
-  padding: 3px;
-}
-
-.skills-2 div {
-  padding: 3px;
+  padding: 2px;
+  text-align: center;
 }
 
 .experience, .blogs, .contact, .home, .info, .projects{
@@ -324,7 +321,7 @@ body {
   margin-top: 50px;
 }
 
-.github, .linkedin, .curriculo {
+.github, .linkedin, .curriculum {
   padding-bottom: 15px;
 }
 
@@ -377,4 +374,16 @@ body {
 .rod {
   color:white;
   align-items: center center;
+}
+
+#my_projects_title {
+  font-family: 'Syne Tactile', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+#form_contact_title {
+  text-decoration:none;
+  font-family: 'Turret Road', cursive;
+  font-size: medium;
 }

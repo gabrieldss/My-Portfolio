@@ -12,10 +12,16 @@ class Contact extends Component {
                     <div className="container item-wrapper">
                         <div className="row">
                             <div className="contact-item">
+                                <br></br>
+                            <div className="work-img">
+                                    <img
+                                        src={require("../images/contact.png")}
+                                        role={"presentation"}
+                                    />
+                            </div>
                                 <div className="contact-title">Contact me</div>
                                 <hr></hr>
                                 <div id="email">gabriel-santosouza@hotmail.com</div>
-                                
                                 <div className="contact-card-wrapper">
                                     <div className="col-xs-12 col-sm-4 github">
                                         <a target="_blank" href="https://github.com/gabrieldss">
@@ -54,7 +60,7 @@ class Contact extends Component {
                                         </a>
                                     </div>
                                     <center>
-                                    <a id="form_contact_title">Forumulário de Contato:</a>
+                                    <a  id="form_contact_title">Forumulário de Contato:</a>
                                     </center>
                                     <center>
                                     <form action="https://formspree.io/gabriel-santosouza@hotmail.com" method="POST">
@@ -65,12 +71,13 @@ class Contact extends Component {
                                     <input type="text" name="E-mail:" placeholder="E-mail"></input>
                                     </div>
                                     <div>
-                                    <input type="text" name="Subject:" placeholder="Subject" ></input>
+                                    <input type="text" name="Subject:" placeholder="Subject"></input>
                                     </div>
                                     <div>
-                                    <textarea type="text" name="Message:" placeholder="Write your message..."></textarea> 
+                                    <textarea type="text" name="Message:" placeholder="Write your message..." rows="5"  cols="50"></textarea> 
                                     </div>
                                     <button>SEND</button>
+                                    <br></br><br></br><br></br>
                                     </form>
                                     </center>
                                 </div>

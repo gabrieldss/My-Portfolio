@@ -313,7 +313,8 @@ body {
   letter-spacing: .5px;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   letter-spacing: 2px;
 }
 
@@ -322,7 +323,7 @@ body {
 }
 
 .github, .linkedin, .curriculum {
-  padding-bottom: 15px;
+  padding-bottom: 50px;
 }
 
 .contact-card {

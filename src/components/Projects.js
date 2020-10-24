@@ -10,6 +10,10 @@ function Projects() {
             <div className="container item-wrapper">
             <div className="work-item">
                                 <div className="work-img">
+                                    <img
+                                        src={require("../images/project.png")}
+                                        role={"presentation"}
+                                    />
                                     <h5 id="my_projects_title"><b>My Projects</b></h5>
                                     </div>
                                     <hr></hr>

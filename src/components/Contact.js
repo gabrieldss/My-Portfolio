@@ -60,7 +60,7 @@ class Contact extends Component {
                                         </a>
                                     </div>
                                     <center>
-                                    <a  id="form_contact_title">Forumulário de Contato:</a>
+                                    <a  id="form_contact_title">Contact Form:</a>
                                     </center>
                                     <center>
                                     <form action="https://formspree.io/gabriel-santosouza@hotmail.com" method="POST">

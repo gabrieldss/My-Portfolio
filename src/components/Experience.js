@@ -47,15 +47,15 @@ class Experience extends Component {
                                 <div className="row">
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
-                                            <li>Technology in Systemns Analysis and Development (2017-2020)</li>
+                                            <li>Technology in Systems Analysis and Development (2017-2020)</li>
                                             <li>Mechanical Production Technician (2013-2016)</li>
                                         </ul>
                                     </div>
                                     <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
-                                            <li>Internship in CDS - Informática LTDA, Technical Support (mar/2018-jun/2018)</li>
-                                            <li>Enactus UTFPR-CP member (set/2019-2020)</li>
-                                            <li>Developer in Forlogic Software LTDA (jan/2020-currently)</li>
+                                            <li>Developer in Forlogic Software LTDA (Jan/2020-Currently)</li>
+                                            <li>Enactus UTFPR-CP member (Sept/2019-Dec/2020)</li>
+                                            <li>Internship Technical Support in CDS - Informática LTDA (Mar/2018-jun/2018)</li>
                                         </ul>
                                     </div>
                                 </div>

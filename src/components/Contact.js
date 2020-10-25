@@ -74,7 +74,7 @@ class Contact extends Component {
                                     <input type="text" name="Subject:" placeholder="Subject"></input>
                                     </div>
                                     <div>
-                                    <textarea type="text" name="Message:" placeholder="Write your message..." rows="5"  cols="50"></textarea> 
+                                    <textarea type="text" name="Message:" placeholder="Write your message..." rows="4"  cols="45"></textarea> 
                                     </div>
                                     <button>SEND</button>
                                     <br></br><br></br><br></br>

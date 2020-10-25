@@ -360,10 +360,11 @@ body {
   position:relative;
   top:5px;
   box-shadow:none;
+  background-color:#337ab7; 
 }
-
 .btn:hover {
-  opacity:90%; 
+  opacity: 0.9;
   color:white;
   border-color:#104d82;
+  background-color:#337ab7; 
 }

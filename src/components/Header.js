@@ -76,22 +76,12 @@ class Header extends Component {
                         </div>
                         <div className="menu-item">
                             <Link
-                                activeClass="active-blogs"
-                                to="blogs"
+                                activeClass="active-about"
+                                to="about"
                                 spy={true}
                                 smooth={true}
                                 duration={500} >
-                                Blogs
-                            </Link>
-                        </div>
-                        <div className="menu-item">
-                            <Link
-                                activeClass="active-info"
-                                to="info"
-                                spy={true}
-                                smooth={true}
-                                duration={500} >
-                                Info
+                                About
                             </Link>
                         </div>
                         <div className="menu-item">

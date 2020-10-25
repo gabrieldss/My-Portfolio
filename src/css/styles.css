@@ -62,11 +62,7 @@ body {
   border-bottom: 3px solid #FFA630;
 }
 
-.active-blogs{
-  border-bottom: 3px solid #7CA982;
-}
-
-.active-info {
+.active-about {
   border-bottom: 3px solid #73001A;
 }
 
@@ -117,7 +113,7 @@ body {
   text-align: center;
 }
 
-.experience, .blogs, .contact, .home, .info, .projects{
+.experience, .contact, .home, .about, .projects{
   padding-top: 54px;
 }
 
@@ -133,10 +129,6 @@ body {
   border-top: 5px solid #FFE6C6;
 }
 
-.blogs-container {
-  border-top: 5px solid #C3D7C6;
-}
-
 .contact-container {
   border-top: 5px solid #B3A3B5;
 }
@@ -146,21 +138,21 @@ body {
   margin-top: 10px;
 }
 
-.work-item, .edu-item, .about-item, .blogs-item, .contact-item {
+.work-item, .edu-item, .about-item, .contact-item {
   box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.12), 1px 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
   background-color: #fff;
 }
 
-.work-item p, .edu-item p, .about-item p, .blogs-item p, .contact-item p {
+.work-item p, .edu-item p, .about-item p, .contact-item p {
   padding: 5px;
   text-align: center;
 }
 
-.work-item ul, .edu-item ul, .about-item ul, .blogs-item ul, .contact-item ul {
+.work-item ul, .edu-item ul, .about-item ul, .contact-item ul {
   list-style: square;
 }
 
-.work-item li, .edu-item li, .about-item li, .blogs-item li, .contact-item li {
+.work-item li, .edu-item li, .about-item li, .contact-item li {
   padding: 5px 0;
 }
 
@@ -169,11 +161,6 @@ body {
   min-height: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.blogs-item {
-  overflow: hidden;
-  margin-top: 20px;
 }
 
 .edu-wrapper {
@@ -221,46 +208,6 @@ body {
   top:-2px;
   box-shadow:0 2px 2px #666;
   opacity: 0.7;
-}
-
-.blogs-img {
-  padding-right: 0px !important;
-  margin-bottom: 15px;
-}
-
-.blogs-img img {
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.14), 0 1px 2px rgba(0, 0, 0, 0.28);
-}
-
-.blogs-img-sm {
-  margin-bottom: 15px;
-}
-
-.blogs-img-sm img {
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.14), 0 1px 2px rgba(0, 0, 0, 0.28);
-}
-
-.blogs-header {
-  display: flex;
-}
-
-.blogs-title {
-  align-self: flex-start;
-  padding-left: 20px;
-  padding-top: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  font-family: 'Merriweather', sans-serif;
-  letter-spacing: .5px;
-  font-weight: bold;
-}
-
-.blogs-content {
-  line-height: 1.2em;
-  font-size: 14px;
-  text-align: justify;
-  padding: 15px;
-  margin-bottom: 15px;
 }
 
 .name {

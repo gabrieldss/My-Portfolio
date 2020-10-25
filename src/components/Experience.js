@@ -29,7 +29,7 @@ class Experience extends Component {
                                     </div>
                                     <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
-                                            <li><b>English: </b>Basic (currently studyng at Born Language Institute)</li>
+                                            <li><b>English: </b>Basic (studyng at Born Language Institute)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -42,20 +42,20 @@ class Experience extends Component {
                                         role={"presentation"}
                                     />
                                 </div>
-                                <div className="title">Formation & Activities</div>
+                                <div className="title">Graduations & Experiences</div>
                                 <hr></hr>
                                 <div className="row">
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
-                                            <li>Tecnologia em Análise e Desenvolvimento de Sistemas (2017-atualmente)</li>
-                                            <li>Técnico em Produção Mecânica (2013-2016)</li>
+                                            <li>Technology in Systemns Analysis and Development (2017-2020)</li>
+                                            <li>Mechanical Production Technician (2013-2016)</li>
                                         </ul>
                                     </div>
                                     <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
-                                            <li>Estágio no setor de Suporte na C.D.S (mar/2018-jun/2018)</li>
-                                            <li>Membro da Enactus UTFPR-CP (set/2019-atualmente)</li>
-                                            <li>Desenvolvedor em Forlogic Software LTDA (jan/2020-atualmente)</li>
+                                            <li>Internship in CDS - Informática LTDA, Technical Support (mar/2018-jun/2018)</li>
+                                            <li>Enactus UTFPR-CP member (set/2019-2020)</li>
+                                            <li>Developer in Forlogic Software LTDA (jan/2020-currently)</li>
                                         </ul>
                                     </div>
                                 </div>

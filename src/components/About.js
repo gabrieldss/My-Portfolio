@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helpers } from 'react-scroll';
 
-function Info() {
+function About() {
     return(
-        <div className="info">
+        <div className="about">
             <div style={{backgroundColor: `#73001A`, width: `100%`, height: `5px`}}></div>
             <div style={{backgroundColor: `#B40028`, width: `100%`, height: `5px`}}></div>
             <div style={{backgroundColor: `#E10032`, width: `100%`, height: `5px`}}></div>
@@ -53,4 +53,4 @@ function Info() {
     )
 }
 
-export default Helpers.Element(Info);
+export default Helpers.Element(About);

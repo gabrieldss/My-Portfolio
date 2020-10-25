@@ -14,7 +14,7 @@ function Projects() {
                                         src={require("../images/project.png")}
                                         role={"presentation"}
                                     />
-                                    <h5 id="my_projects_title"><b>My Projects</b></h5>
+                                    <h5 className="my_projects_title"><b>My Projects</b></h5>
                                     </div>
                                     <hr></hr>
                                 <div className="proj-img">

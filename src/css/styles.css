@@ -6,7 +6,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
 .header {
   position: fixed;
   z-index: 1000;
@@ -377,14 +376,13 @@ body {
   align-items: center center;
 }
 
-#my_projects_title {
-  font-family: 'Syne Tactile', cursive;
-  font-size: 30px;
+.my_projects_title {
   text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 20px;
 }
 
 #form_contact_title {
   text-decoration:none;
-  font-family: 'Turret Road', cursive;
-  font-size: medium;
+  font-family: 'Merriweather', sans-serif;
 }

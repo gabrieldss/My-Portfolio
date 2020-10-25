@@ -1,15 +1,13 @@
 {
-  "main.css": "static/css/main.ff2fed9b.css",
-  "main.css.map": "static/css/main.ff2fed9b.css.map",
-  "main.js": "static/js/main.1368b724.js",
-  "main.js.map": "static/js/main.1368b724.js.map",
-  "static\\media\\Curriculum.pdf": "static/media/Curriculum.53646bfa.pdf",
-  "static\\media\\css.jpg": "static/media/css.76e142a6.jpg",
-  "static\\media\\formacao.png": "static/media/formacao.ca2588f4.png",
+  "main.css": "static/css/main.5628c89a.css",
+  "main.css.map": "static/css/main.5628c89a.css.map",
+  "main.js": "static/js/main.920b7d93.js",
+  "main.js.map": "static/js/main.920b7d93.js.map",
+  "static\\media\\Curriculum.pdf": "static/media/Curriculum.c9f09bae.pdf",
+  "static\\media\\contact.png": "static/media/contact.063ade99.png",
+  "static\\media\\formation.png": "static/media/formation.ca2588f4.png",
   "static\\media\\gabriel.jpg": "static/media/gabriel.4e31e5ce.jpg",
-  "static\\media\\interesses.jpg": "static/media/interesses.9f1db949.jpg",
-  "static\\media\\js.png": "static/media/js.04f4b1f9.png",
-  "static\\media\\projeto.png": "static/media/projeto.7cdbf64f.png",
-  "static\\media\\react.png": "static/media/react.7c0fdc49.png",
-  "static\\media\\trab.jpg": "static/media/trab.9abdd5c3.jpg"
+  "static\\media\\interests.jpg": "static/media/interests.9f1db949.jpg",
+  "static\\media\\my_projects.png": "static/media/my_projects.749a3a50.png",
+  "static\\media\\project.png": "static/media/project.b708bd64.png"
 }

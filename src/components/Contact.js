@@ -36,7 +36,7 @@ class Contact extends Component {
                                         </a>
                                     </div>
                                     <div className="col-xs-12 col-sm-4 linkedin">
-                                        <a target="_blank" href="https://www.linkedin.com/in/gabriel-dos-santos-souza-3aaa6a159/">
+                                        <a target="_blank" href="https://www.linkedin.com/in/gabrieldssouza/">
                                             <div className="contact-card">
                                                 <div className="contact-icon">
                                                     <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>

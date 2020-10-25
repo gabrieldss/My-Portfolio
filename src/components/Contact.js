@@ -65,18 +65,18 @@ class Contact extends Component {
                                     <center>
                                     <form action="https://formspree.io/gabriel-santosouza@hotmail.com" method="POST">
                                     <div>
-                                    <input type="text" name="Name:" placeholder="Name"></input>
+                                    <input className="input-text" type="text" name="Name:" placeholder="Name"></input>
                                     </div>
                                     <div>
-                                    <input type="text" name="E-mail:" placeholder="E-mail"></input>
+                                    <input className="input-text" type="text" name="E-mail:" placeholder="E-mail"></input>
                                     </div>
                                     <div>
-                                    <input type="text" name="Subject:" placeholder="Subject"></input>
+                                    <input className="input-text" type="text" name="Subject:" placeholder="Subject"></input>
                                     </div>
                                     <div>
-                                    <textarea type="text" name="Message:" placeholder="Write your message..." rows="4"  cols="45"></textarea> 
+                                    <textarea className="area-message" type="text" name="Message:" placeholder="Write your message..." rows="5"></textarea> 
                                     </div>
-                                    <button>SEND</button>
+                                    <button className="btn">SEND</button>
                                     <br></br><br></br><br></br>
                                     </form>
                                     </center>

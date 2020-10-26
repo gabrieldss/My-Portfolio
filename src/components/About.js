@@ -17,7 +17,7 @@ function About() {
                                 <hr></hr>
                                 <div className="honors-wrapper">
                                 <div className="honors-item">
-                                       Start my studyng trajectory realizing Mechanical Production Technician. 
+                                       Started my studying trajectory realizing Mechanical Production Technician. 
                                        But, in fact always love tecnology, then i ingressed in Technology in 
                                        Systems Analysis and Development, a great and fast graduation in a growing 
                                        area and very importart for society, with vast labor market. I believe that 

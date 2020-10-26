@@ -17,12 +17,11 @@ function About() {
                                 <hr></hr>
                                 <div className="honors-wrapper">
                                 <div className="honors-item">
-                                       Iniciei minha trajetória realizando Técnico em Produção Mecânica na UTFPR-CP, apesar do ótimo ensino, acabei não gostando desta área.
-                                       Então como conhecia bem a faculdade, tentei pesquisar em qual curso dela 
-                                       eu me encaixaria melhor. Logo, pelo fato de sempre estar ligado ao mundo 
-                                       tecnológico, optei por ingressar em Ánalise em Desenvolvimento de Sistemas, 
-                                       por ser um curso mais rápido e em uma área de grande crescimento na sociedade, o 
-                                       qual nos capacita para adentrar no mercado de trabalho. 
+                                       Start my studyng trajectory realizing Mechanical Production Technician. 
+                                       But, in fact always love tecnology, then i ingressed in Technology in 
+                                       Systems Analysis and Development, a great and fast graduation in a growing 
+                                       area and very importart for society, with vast labor market. I believe that 
+                                       technology is the present and the future of the world. 
                                     </div>
                                 </div>
                             </div>
@@ -30,21 +29,21 @@ function About() {
 
                         <div id="bachelors" className="col-xs-12 col-sm-6 edu-wrapper">
                             <div className="edu-item">
-
                                 <div className="title">PROFESSION</div>
                                 <hr></hr>
                                 <div className="honors-wrapper">
                                     <div className="honors-item">
-                                        O contato com a tecnologia sempre esteve presente em minha vida, creio que possamos evoluir ainda mais se a explorarmos.
-                                        Então com está motivação de criar coisas novas para a sociedade, iniciei o curso de Tecnológo na UTFPR-CP no ano de 2017. 
-                                        Dentro do curso e realizando estágios, vi a importância na prática desta área.
+                                            The contact with tecnology has always been present in my life, 
+                                            then with this motivation the change the world and create new 
+                                            things, i realized the graduation in this area at UTFPR-CP, 
+                                            starting in the year 2017. Inside the course i realized projects 
+                                            and interships and i saw in practic the importance of this area. 
+                                            Currently, i work as Developer in Forlogic Software in my 
+                                            hometown, Cornélio Procópio.
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
-
 
                     </div>
                 </div>

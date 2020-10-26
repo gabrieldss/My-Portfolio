@@ -143,6 +143,12 @@ body {
   background-color: #fff;
 }
 
+.honors-item{
+  text-align: justify;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 19px!important;
+}
+
 .work-item p, .edu-item p, .about-item p, .contact-item p {
   padding: 5px;
   text-align: center;

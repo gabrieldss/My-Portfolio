@@ -34,7 +34,9 @@ class Home extends Component {
                                     <div className="skills-1">
                                             <div>HTML, CSS</div> 
                                             <div>JavaScript, C#</div>
+                                            <div>AngularJS, Syncfusion</div>
                                             <div>SQL Server</div>
+                                            <div>Stimulsoft Reports.Web</div>
                                         </div>
                                     </div>
                                     <hr></hr>

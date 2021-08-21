@@ -35,7 +35,7 @@ class Home extends Component {
                                             <div>HTML, CSS</div> 
                                             <div>JavaScript, C#</div>
                                             <div>AngularJS, Syncfusion</div>
-                                            <div>SQL Server</div>
+                                            <div>ReactJS, SQL Server</div>
                                             <div>Stimulsoft Reports.Web</div>
                                         </div>
                                     </div>

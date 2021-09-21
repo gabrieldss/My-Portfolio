@@ -54,7 +54,7 @@ class Experience extends Component {
                                 </div>
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                     <ul>
-                                        <li>Developer in Forlogic Software LTDA (Jan/2020-Currently)</li>
+                                        <li>Full Stack Web Developer in Forlogic Software LTDA (Jan/2020-Currently)</li>
                                         <li>Enactus UTFPR-CP member (Sept/2019-Dec/2020)</li>
                                         <li>Internship Technical Support in CDS - Informática LTDA (Mar/2018-June/2018)</li>
                                     </ul>

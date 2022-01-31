@@ -29,7 +29,7 @@ class Experience extends Component {
                                 </div>
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                     <ul>
-                                        <li><b>English: </b>Basic (studyng at Born Language Institute)</li>
+                                        <li><b>English: </b>Intermediary (studyng at Born Language Institute)</li>
                                     </ul>
                                 </div>
                             </div>
@@ -47,6 +47,7 @@ class Experience extends Component {
                             <div className="row">
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                     <ul>
+                                        <li>Postgraduate in Digital product design - UX-UI (2021-2021)</li>
                                         <li>Postgraduate in Database Administration - UNOPAR (2021-2021)</li>
                                         <li>Technology in Systems Analysis and Development - UTFPR-CP (2017-2020)</li>
                                         <li>Mechanical Production Technician - UTFPR-CP (2013-2016)</li>

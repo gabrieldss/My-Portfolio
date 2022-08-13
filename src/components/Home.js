@@ -14,7 +14,7 @@ class Home extends Component {
                             <div className="about-item">
                                 <div className="about-img">
                                     <img
-                                        src={require("../images/gabriel.jpg")}
+                                        src={require("../images/gabriel.png")}
                                         role={"presentation"}
                                     />
                                 </div>

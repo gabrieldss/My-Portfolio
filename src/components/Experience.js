@@ -22,9 +22,9 @@ class Experience extends Component {
                             <div className="row">
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                     <ul>
-                                        <li>Front-end, Games</li>
+                                        <li>Front-end Development</li>
                                         <li>Web and Mobile Development</li>
-                                        <li>Artificial Intelligence</li>
+                                        <li>Artificial Intelligence and Games</li>
                                     </ul>
                                 </div>
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">

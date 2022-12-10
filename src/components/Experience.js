@@ -29,7 +29,9 @@ class Experience extends Component {
                                 </div>
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                     <ul>
-                                        <li><b>English: </b>Intermediary (studyng at Born Language Institute)</li>
+                                        <li><b>Portuguese: </b>native</li>
+                                        <li><b>English: </b>intermediary</li>
+                                        <li><b>Spanish: </b>basic</li>
                                     </ul>
                                 </div>
                             </div>

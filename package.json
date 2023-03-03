@@ -8,7 +8,7 @@
     "url": "git+https://github.com/gabrieldss/My-Portfolio.git"
   },
   "devDependencies": {
-    "react-scripts": "0.8.5"
+    "react-scripts": "5.0.1"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",

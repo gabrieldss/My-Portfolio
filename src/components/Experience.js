@@ -44,12 +44,12 @@ class Experience extends Component {
                                     role={"presentation"}
                                 />
                             </div>
-                            <div className="title">Graduations & Experiences</div>
+                            <div className="title">Graduations/Certifications & Experiences</div>
                             <hr></hr>
                             <div className="row">
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                     <ul>
-                                        <li>AZ-204: Developing Solutions for Microsoft Azure (Set/2023)</li>
+                                        <li>AZ-204: Developing Solutions for Microsoft Azure (Sept/2023)</li>
                                         <li>Postgraduate in Digital product design - UX-UI (2021-2021)</li>
                                         <li>Postgraduate in Database Administration - UNOPAR (2021-2021)</li>
                                         <li>Technology in Systems Analysis and Development - UTFPR-CP (2017-2020)</li>

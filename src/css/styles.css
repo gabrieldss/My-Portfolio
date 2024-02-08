@@ -27,16 +27,17 @@ body {
 }
 
 @media screen and (min-width: 650px) {
-.header-menu-items {
-  font-size: 14px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.menu-item {
-  padding: 18px 18px;
-  flex-shrink: 2;
-  letter-spacing: 2px;
+  .header-menu-items {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .menu-item {
+    padding: 18px 18px;
+    flex-shrink: 2;
+    letter-spacing: 2px;
   }
 }
 
@@ -54,11 +55,11 @@ body {
   border-bottom: 3px solid #3993DD;
 }
 
-.active-experience{
+.active-experience {
   border-bottom: 3px solid #BA160C;
 }
 
-.active-projects{
+.active-projects {
   border-bottom: 3px solid #FFA630;
 }
 
@@ -113,7 +114,11 @@ body {
   text-align: center;
 }
 
-.experience, .contact, .home, .about, .projects{
+.experience,
+.contact,
+.home,
+.about,
+.projects {
   padding-top: 54px;
 }
 
@@ -138,31 +143,45 @@ body {
   margin-top: 10px;
 }
 
-.work-item, .edu-item, .about-item, .contact-item {
+.work-item,
+.edu-item,
+.about-item,
+.contact-item {
   box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.12), 1px 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
   background-color: #fff;
 }
 
-.honors-item{
+.honors-item {
   text-align: justify;
   font-family: 'Gentium Book Basic', serif;
-  font-size: 19px!important;
+  font-size: 19px !important;
 }
 
-.work-item p, .edu-item p, .about-item p, .contact-item p {
+.work-item p,
+.edu-item p,
+.about-item p,
+.contact-item p {
   padding: 5px;
   text-align: center;
 }
 
-.work-item ul, .edu-item ul, .about-item ul, .contact-item ul {
+.work-item ul,
+.edu-item ul,
+.about-item ul,
+.contact-item ul {
   list-style: square;
 }
 
-.work-item li, .edu-item li, .about-item li, .contact-item li {
+.work-item li,
+.edu-item li,
+.about-item li,
+.contact-item li {
   padding: 5px 0;
 }
 
-.work-item, .about-item, .contact-item {
+.work-item,
+.about-item,
+.contact-item {
   padding: 50px;
   min-height: 400px;
   margin-top: 20px;
@@ -184,15 +203,17 @@ body {
   line-height: 1.2em;
 }
 
-.work-img, .about-img {
+.work-img,
+.about-img {
   margin-bottom: 15px;
 }
 
-.about-img { 
+.about-img {
   margin-top: 10px;
 }
 
-.work-img img,.about-img img {
+.work-img img,
+.about-img img {
   display: block;
   margin: auto;
   max-width: 150px;
@@ -209,14 +230,14 @@ body {
 }
 
 .proj-img img:hover {
-  top:-2px;
-  box-shadow:0 2px 2px #666;
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
   opacity: 0.7;
 }
 
 .hidden-xs img:hover {
-  top:-2px;
-  box-shadow:0 2px 2px #666;
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
   opacity: 0.7;
 }
 
@@ -229,7 +250,8 @@ body {
   font-size: 18px;
 }
 
-.title, .name {
+.title,
+.name {
   font-family: 'Merriweather', sans-serif;
   letter-spacing: .5px;
   font-weight: bold;
@@ -245,7 +267,8 @@ body {
   list-style: circle;
 }
 
-.resume-item, .honors-item {
+.resume-item,
+.honors-item {
   font-size: 14px;
   padding: 10px;
 }
@@ -278,7 +301,9 @@ body {
   margin-top: 50px;
 }
 
-.github, .linkedin, .curriculum {
+.github,
+.linkedin,
+.curriculum {
   padding-bottom: 80px;
 }
 
@@ -329,7 +354,7 @@ body {
 }
 
 .rod {
-  color:white;
+  color: white;
   align-items: center center;
 }
 
@@ -341,7 +366,7 @@ body {
 
 #form_contact_title {
   font-size: 16px;
-  text-decoration:none;
+  text-decoration: none;
   font-family: 'Merriweather', sans-serif;
 }
 
@@ -359,22 +384,28 @@ body {
 }
 
 .btn {
-  background-color:#337ab7; 
+  background-color: #337ab7;
   color: white;
   text-align: center;
   display: inline-block;
   font-size: 16px;
   width: 50%;
 }
-.btn:active{
-  position:relative;
-  top:5px;
-  box-shadow:none;
-  background-color:#337ab7; 
+
+.btn:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+  background-color: #337ab7;
 }
+
 .btn:hover {
   opacity: 0.9;
-  color:white;
-  border-color:#104d82;
-  background-color:#337ab7; 
+  color: white;
+  border-color: #104d82;
+  background-color: #337ab7;
+}
+
+.underline-text {
+  text-decoration: underline;
 }

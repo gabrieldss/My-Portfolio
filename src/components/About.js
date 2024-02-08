@@ -38,8 +38,8 @@ function About() {
                                             things, i realized the graduation in this area at UTFPR-CP, 
                                             starting in the year 2017. Inside the course i realized projects 
                                             and interships and i saw in practic the importance of this area. 
-                                            Currently, i work as Developer in Forlogic Software in my 
-                                            hometown, Cornélio Procópio.
+                                            Currently, i work as Developer in Solutis Tecnologias, working
+                                            remotely in my hometown, Cornélio Procópio.
                                     </div>
                                 </div>
                             </div>

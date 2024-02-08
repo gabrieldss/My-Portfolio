@@ -49,16 +49,16 @@ class Experience extends Component {
                             <div className="row">
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                     <ul>
-                                        <li>AZ-204: Developing Solutions for Microsoft Azure (Sept/2023)</li>
-                                        <li>Postgraduate in Digital product design - UX-UI (2021-2021)</li>
-                                        <li>Postgraduate in Database Administration - UNOPAR (2021-2021)</li>
-                                        <li>Technology in Systems Analysis and Development - UTFPR-CP (2017-2020)</li>
+                                        <li><em>AZ-204: Developing Solutions for Microsoft Azure (Sept/2023)</em></li>
+                                        <li>C# .NET Developer in Solutis Tecnologias LTDA (Feb/2024-Currently)</li>
+                                        <li>Full Stack Web Developer in Forlogic Software LTDA (Jan/2020-Feb/2024)</li>
+                                        <li><span className="underline-text">Postgraduation</span>: Database Administration and Digital product design - UX-UI - UNOPAR (2021-2021)</li>
                                     </ul>
                                 </div>
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                     <ul>
+                                        <li>Technology in Systems Analysis and Development - UTFPR-CP (2017-2020)</li>
                                         <li>Mechanical Production Technician - UTFPR-CP (2013-2016)</li>
-                                        <li>Full Stack Web Developer in Forlogic Software LTDA (Jan/2020-Currently)</li>
                                         <li>Enactus UTFPR-CP member (Sept/2019-Dec/2020)</li>
                                         <li>Internship Technical Support in CDS - Informática LTDA (Mar/2018-June/2018)</li>
                                     </ul>

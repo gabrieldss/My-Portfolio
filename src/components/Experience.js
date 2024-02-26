@@ -49,6 +49,7 @@ class Experience extends Component {
                             <div className="row">
                                 <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                     <ul>
+                                        <li><em>AZ-400: Designing and Implementing Microsoft DevOps Solutions (Feb/2023)</em></li>
                                         <li><em>AZ-204: Developing Solutions for Microsoft Azure (Sept/2023)</em></li>
                                         <li>Senior Software Engineer I in Solutis Tecnologias LTDA (Feb/2024-Currently)</li>
                                         <li>Full Stack Web Developer in Forlogic Software LTDA (Jan/2020-Feb/2024)</li>

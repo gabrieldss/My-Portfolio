@@ -2,7 +2,7 @@
 export const companyLinks = {
   'Solutis Tecnologias': 'https://solutis.com.br/',
   'Forlogic Software': 'https://forlogic.net/',
-  'CDS Informática': 'https://www.dribion.com/',
+  'CDS Software': 'https://www.cds-software.com.br/',
 };
 
 // Same order as degrees in every language. The technical course has no PDF link.

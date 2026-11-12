@@ -20,8 +20,9 @@ button:disabled{cursor:default}
 
 /* Theme switch: dark is the default, light is an explicit preference. */
 .language-picker select:focus{outline:none;box-shadow:none}
-.language-picker select{width:62px;flex-shrink:0}
-.language-picker svg{flex-shrink:0}
+.language-picker{display:grid;grid-template-columns:16px 62px}
+.language-picker select{grid-area:1 / 1 / 2 / 3;width:85px;padding-left:23px;flex-shrink:0}
+.language-picker svg{grid-area:1 / 1;z-index:1;pointer-events:none;flex-shrink:0}
 :root{color-scheme:dark}
 .theme-toggle{display:grid;place-items:center;width:36px;height:36px;flex-shrink:0;padding:0;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--muted);transition:color .2s,background .2s,border-color .2s}
 .theme-toggle:hover{color:var(--blue);border-color:var(--blue);background:var(--surface)}

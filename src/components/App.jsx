@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { content } from '../content';
 import { companyLinks, degreeLinks, certificationLinks } from '../links';
 import portrait from '../images/gabriel.jpeg';
@@ -24,9 +24,23 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [active, setActive] = useState('');
   const [copyStatus, setCopyStatus] = useState('');
+  const languageScroll = useRef(null);
   const t = content[locale];
   const curriculum = curricula[locale];
   const themeLabel = locale === 'pt-BR' ? `Ativar tema ${theme === 'dark' ? 'claro' : 'escuro'}` : locale === 'es' ? `Activar tema ${theme === 'dark' ? 'claro' : 'oscuro'}` : `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`;
+
+  const changeLanguage = event => {
+    if (event.target.value === locale) return;
+    languageScroll.current = { left: window.scrollX, top: window.scrollY };
+    setLocale(event.target.value);
+  };
+
+  useLayoutEffect(() => {
+    if (!languageScroll.current) return;
+    // Translation can change section heights; restore before the browser paints.
+    window.scrollTo({ ...languageScroll.current, behavior: 'instant' });
+    languageScroll.current = null;
+  }, [locale]);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
@@ -69,7 +83,7 @@ export default function App() {
       <nav id="navigation" aria-label={locale === 'en' ? 'Main navigation' : locale === 'es' ? 'Navegación principal' : 'Navegação principal'} className={menuOpen ? 'nav open' : 'nav'}>
         {ids.map((id, i) => <a href={`#${id}`} key={id} className={active === id ? 'active' : ''} aria-current={active === id ? 'location' : undefined} onClick={() => setMenuOpen(false)}>{t.nav[i]}</a>)}
       </nav>
-      <div className="header-actions"><button type="button" className="theme-toggle" aria-label={themeLabel} title={themeLabel} onClick={() => setTheme(current => current === 'dark' ? 'light' : 'dark')}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{theme === 'dark' ? <><circle cx="12" cy="12" r="4" /><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" /></> : <path d="M20.9 13a9 9 0 0 1-9.9-9.9A9 9 0 1 0 20.9 13Z" />}</svg></button><label className="language-picker" title={t.language}><Icon type="globe" /><select aria-label={t.language} value={locale} onChange={e => setLocale(e.target.value)}><option value="en">EN</option><option value="pt-BR">PT-BR</option><option value="es">ES</option></select></label><button className="menu-toggle" aria-label={t.menu} aria-expanded={menuOpen} aria-controls="navigation" onClick={() => setMenuOpen(!menuOpen)}><Icon type={menuOpen ? 'close' : 'menu'} /></button></div>
+      <div className="header-actions"><button type="button" className="theme-toggle" aria-label={themeLabel} title={themeLabel} onClick={() => setTheme(current => current === 'dark' ? 'light' : 'dark')}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{theme === 'dark' ? <><circle cx="12" cy="12" r="4" /><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" /></> : <path d="M20.9 13a9 9 0 0 1-9.9-9.9A9 9 0 1 0 20.9 13Z" />}</svg></button><label className="language-picker" title={t.language}><Icon type="globe" /><select aria-label={t.language} value={locale} onPointerDown={e => e.currentTarget.focus({ preventScroll: true })} onChange={changeLanguage}><option value="en">EN</option><option value="pt-BR">PT-BR</option><option value="es">ES</option></select></label><button className="menu-toggle" aria-label={t.menu} aria-expanded={menuOpen} aria-controls="navigation" onClick={() => setMenuOpen(!menuOpen)}><Icon type={menuOpen ? 'close' : 'menu'} /></button></div>
     </div></header>
     <main id="main">
       <section id="home" className="hero container">
